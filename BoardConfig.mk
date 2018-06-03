@@ -43,3 +43,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
 -include vendor/zuk/z2_plus/BoardConfigVendor.mk
+
+# Extras
+HWUI_COMPILE_FOR_PERF := true
+BOARD_SUPPRESS_SECURE_ERASE := true
